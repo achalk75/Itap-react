@@ -1,0 +1,78 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+
+
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(23,45,56,0.5);
+}
+.app{
+height: 100vh;
+width: 100%;
+background-color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#queryInput{
+  width: 100%;
+  padding: 10px;
+}
+
+.dataList{
+  height: 80vh;
+  /* background-color: #000; */
+  overflow-y: scroll;
+}
+
+
+.item{
+  margin-bottom: 10px;
+}
+
+.hidden{
+  display: none;
+}
+
+.items{
+  list-style-type: none;
+  cursor: pointer;
+
+}
+#username{
+  color: blue;
+}
+#name{
+  color: black;
+  font-weight: 700;
+}
+#serial{
+  color: rgb(97, 97, 97);
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.iteminfos{
+display: flex;
+align-items: start;
+justify-content: space-between;
+flex-direction: column;
+background-color: rgb(220, 220, 220);
+}
+
+.iteminfos span{
+  color: blue;
+  text-decoration: underline;
+}
+.iteminfos summary{
+  color: rgb(35, 113, 173);
+  text-decoration: underline;
+}
+
+.iteminfos > div{
+  display: flex;
+  align-items: center;
+}
